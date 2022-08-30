@@ -1,0 +1,63 @@
+[
+    {
+        "id": "c0283p3d0cvuglq85log",
+        "name": "Oregano Marinated Chicken",
+        "tags": [
+            "main",
+            "chicken"
+        ],
+        "ingredients": [
+            "4 (6 to 7-ounce) boneless skinless chicken breasts\r",
+            "10 grinds black pepper\r",
+            "1/2 tsp salt\r",
+            "2 tablespoon extra-virgin olive oil\r",
+            "1 teaspoon dried oregano\r",
+            "1 lemon, juiced"
+        ],
+        "instructions": [
+            "To marinate the chicken: In a non-reactive dish, combine the lemon juice, olive oil, oregano, salt, and pepper and mix together",
+            " Add the chicken breasts to the dish and rub both sides in the mixture",
+            " Cover the dish with plastic wrap and let marinate in the refrigerator for at least 30 minutes and up to 4 hours",
+            "\r\n\r\nTo cook the chicken: Heat a nonstick skillet or grill pan over high heat",
+            " Add the chicken breasts and cook, turning once, until well browned, about 4 to 5 minutes on each side or until cooked through",
+            " Let the chicken rest on a cutting board for a few minutes before slicing it into thin strips"
+        ],
+        "publishedAt": "2021-01-17T19:28:52.803062+01:00"
+    },
+    {
+        "id": "c0283p3d0cvuglq85lp0",
+        "name": "Green pea soup with cheddar scallion panini",
+        "tags": [
+            "soup",
+            "main",
+            "panini"
+        ],
+        "ingredients": [
+            "3 tablespoon butter\r",
+            "4 green onions, white and green parts separated and thinly sliced\r",
+            "30 oz frozen peas\r",
+            "2 cup chicken broth\r",
+            "3 cup water\r",
+            "6 oz shredded sharp white cheddar\r",
+            "8 slices sandwich bread\r",
+            "Coarse salt and ground pepper\r",
+            "1 tablespoon fresh lemon juice"
+        ],
+        "instructions": [
+            "In a large saucepan, heat 1 tablespoon butter over medium",
+            " Add scallion whites, and cook, stirring, until softened, 1 to 2 minutes",
+            " Add peas, broth, and water",
+            " Bring to a boil; reduce heat to a simmer",
+            " Cook until peas are tender, about 5 minutes; set aside",
+            "\r\n\r\nIn a medium bowl, toss cheddar with scallion greens",
+            " Make 4 sandwiches with cheddar mixture and bread",
+            "\r\n\r\nIn a large skillet, heat 1 tablespoon butter over medium-low",
+            " Place sandwiches in skillet, and cook until golden, 3 to 4 minutes per side, adding remaining tablespoon butter to skillet to cook second side",
+            "\r\n\r\nWorking in batches, puree soup in a blender until smooth (filling blender only halfway to prevent spattering)",
+            " If necessary, adjust consistency with a little bit of water",
+            " Season with salt, pepper, and lemon juice",
+            " Slice each panini into four \"fingers, and serve with soup"
+        ],
+        "publishedAt": "2021-01-17T19:28:52.803238+01:00"
+    }
+]

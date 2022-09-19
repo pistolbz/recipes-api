@@ -116,3 +116,31 @@ func (handler *RecipesHandler) UpdateRecipeHandler(c *gin.Context) {
 
 	c.JSON(http.StatusOK, gin.H{"message": "Recipe has been updated"})
 }
+
+func (handler *RecipesHandler) DeleteRecipeHandler(c *gin.Context) {
+	id := c.Param("id")
+	var recipe models.Recipe
+	objectId, _ := primitive.ObjectIDFromHex(id)
+
+	cur := handler.collection.FindOne(handler.ctx, bson.M{
+		"_id": objectId,
+	})
+	err := cur.Decode(&recipe)
+	if err != nil {
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		return
+	}
+
+	_, err = handler.collection.DeleteOne(handler.ctx, bson.M{
+		"_id": objectId,
+	})
+	if err != nil {
+		fmt.Println(err)
+		c.JSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+	}
+
+	// Remove Redis key when data deleted
+	log.Println("Removing data from Redis")
+	handler.redisClient.Del(handler.ctx, "recipes")
+	c.JSON(http.StatusOK, gin.H{"message": "Recipe has been deleted"})
+}
